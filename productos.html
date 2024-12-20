@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - The appliance shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="conten">
+            <div class="logo">
+                <img src="/IMG/webpage-logo.png" alt="ElectroShop Logo">
+            </div>
+            <h1 class="title">The appliance shop</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito (<span id="cart-count">0</span>)</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="fon">
+    <!-- <video autoplay muted loop class="vide">
+            <source src="/IMG/vecteezy_digital-transformation-technology-strategy-iot-internet-of_22925553.mp4" type="video/mp4">
+        </video>  
+        -->
+            <img src="/IMG/Sin título.png" alt="fondo">
+    </section>
+    <!-- Banner -->
+    <section class="banner">
+        <h1 class="titulo"> Bienvenido a The appliance shop</h1>
+        <p>Los mejores productos electrónicos al mejor precio</p>
+    </section>
+
+    <!-- Lista de productos -->
+    <section class="productos">
+        <h2 class="subtitulo">Telefonos</h2>
+        <div class="producto-lista">
+            <div class="producto">
+                <img src="/IMG/telefono1_.jpg" alt="telefono 14ProMax">
+                <h3>14 ProMax-Batería de larga duración,6.82 pulgadas, pantalla HD, 6+256 GB, Android 13.0, memoria de 128G
+                </h3>
+                <p><strong>$158.99</strong></p>
+                <p>Se envia a toda Bolivia </p>
+                <p><strong>+4 colores</strong></p>
+                <button class="add-to-cart" data-id="1"  data-name="telefono 14ProMax  " data-price=" $158.99 ">Añadir al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="IMG/telefono2.jpg" alt="Teléfono ONE12">
+                <h3>ONE12-8+256 GB, batería de 6800mAh, pantalla HD de 6.82 pulgadas,bloqueo de huellas dactilares</h3>
+                <p><strong>$158.99</strong></p>
+                <p>Se envia a toda Bolivia </p>
+                <p><strong>+3 colores</strong></p>
+                <button class="add-to-cart" data-id="2" data-name="Teléfono ONE12 " data-price=" 158.99">Añadir al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="/IMG/telefono3.jpg" alt="telefono Moto G Play">
+                <h3>Moto G Play | 2024 | Desbloqueado | Hecho para US 4/64GB | Cámara de 50MP | Azul zafiro <h3>
+                <p><strong>$109.99</strong></p>
+                <p>Se envia a toda Bolivia </p>
+                <p><strong>+6 colores</strong></p>
+                <button class="add-to-cart" data-id="3" data-name="Moto G Play " data-price=" $109.99">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="IMG/telefono4.jpg" alt="SAMSUNG Galaxy A35 5G">
+                <h3>SAMSUNG Galaxy A35 5G 128 GB, pantalla AMOLED, triple cámara, almacenamiento ampliable, diseño resistente,</h3>
+                <p><strong>$299.99</strong></p>
+                <p>Se envia a toda Bolivia </p>
+                <p><strong>+5 colores</strong></p>
+                <button class="add-to-cart" data-id="4" data-name="SAMSUNG Galaxy A35 5G" data-price="299.99">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="IMG/telefono5.jpg" alt="PG65">
+                <h3>PG65 | 2024 | Batería para todo el día | GSM desbloqueado | Pantalla de 6.5 pulgadas | 4/64 GB | 3000 mAh | Versión de EE. UU. | Negro</h3>
+                <p><strong>$59.99</strong></p>
+                <p>Se envia a toda Bolivia </p>
+                <p><strong>+4 colores</strong></p>
+                <button class="add-to-cart" data-id="5" data-name="PG65" data-price="59.99">Añadir al carrito</button>
+            </div>
+        </div>
+    </section> 
+    <!-- Lista de productos -->
+    <section class="productos">
+        <h2 class="subtitulo">Televisores</h2>
+        <div class="producto-lista">
+            <div class="producto">
+                <img src="/IMG/tv1.jpg" alt="TCL Smart TV Class">
+                <h3>TCL Smart TV Class S5 UHD 4K LED de 75 pulgadas, Dolby Vision, HDR PRO+, Dolby Atmos, Alexa integrado con control remoto de voz</h3>
+                <p><strong>$158.99</strong></p>
+                <p>Entrega y asistencia </p>
+                <p><strong>75 Pulgadas</strong></p>
+                <button class="add-to-cart" data-id="6"  data-name="TCL Smart TV Class " data-price=" $158.99 ">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="IMG/tv2.jpg" alt="VIZIO Smart">
+                <h3>VIZIO Smart TV Full HD 1080p de 40 pulgadas con DTS Virtual: X, compatibilidad con Alexa, Google Cast integrado</h3>
+                <p><strong>$110.99</strong></p>
+                <p>Entrega y asistencia en Bolivia </p>
+                <p><strong>40 Pulgadas</strong></p>
+                <button class="add-to-cart" data-id="7" data-name="VIZIO Smart " data-price=" 110.99">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="/IMG/tv3.jpg" alt="SAMSUNG Smart TV ">
+                <h3>SAMSUNG Smart TV Class Crystal UHD 4K DU7200 Series HDR de 65 pulgadas con sonido de seguimiento de objetos, PurColor <h3>
+                <p><strong>$130.99</strong></p>
+                <p>Entrega y asistencia</p>
+                <p><strong>60 Pulgadas</strong></p>
+                <button class="add-to-cart" data-id="8" data-name="SAMSUNG Smart TV " data-price=" $130.99">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="IMG/tv4.jpg" alt="Roku Select">
+                <h3>Roku Select Series Televisor Smart Roku TV, 4K, HDR, control por voz mejorado, brillo automático, streaming impecable</h3>
+                <p><strong>$199.99</strong></p>
+                <p>Se envia a toda Bolivia </p>
+                <p><strong>50 Pulgadas</strong></p>
+                <button class="add-to-cart" data-id="9" data-name="Roku Select" data-price="199.99">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="IMG/tv5.jpg" alt="VIZIO">
+                <h3>VIZIO - Smart TV Full HD 1080p de 24 pulgadas con Apple AirPlay y Chromecast integrados</h3>
+                <p><strong>$119.99</strong></p>
+                <p>Entrega y asistencia </p>
+                <p><strong>24 Pulgadas</strong></p>
+                <button class="add-to-cart" data-id="10" data-name="VIZIO" data-price="119.99">Añadir al carrito</button>
+            </div>
+        </div>
+    </section> 
+<!-- Lista de productos -->
+<section class="productos">
+    <h2 class="subtitulo">Laptop</h2>
+    <div class="producto-lista">
+        <div class="producto">
+            <img src="/IMG/laptop1.jpg" alt="HP Computadora">
+            <h3>HP Computadora portátil 14, Intel Celeron N4020, 4GB de RAM, 64 GB de almacenamiento, pantalla HD de microborde</h3>
+            <p><strong>$178.99</strong></p>
+            <p>Entrega y asistencia </p>
+            <p><strong>+3 colores</strong></p>
+            <button class="add-to-cart" data-id="11"  data-name="HP Computadora " data-price=" $178.99 ">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="IMG/laptop2.jpg" alt="Acer Aspire">
+            <h3>Acer Aspire 3 A315-24P-R7VH, 15.6 pulgadas, AMD Ryzen 3 7320U cuatro núcleos, AMD Radeon, 8 GB LPDDR5</h3>
+            <p><strong>$279.99</strong></p>
+            <p>Entrega y asistencia en Bolivia </p>
+            <p><strong>2 Colores</strong></p>
+            <button class="add-to-cart" data-id="12" data-name="Acer Aspire " data-price=" 279.99">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="IMG/laptop3.jpg" alt="HP Portátil">
+            <h3>HP Portátil ultraligero de 14 pulgadas, Intel Quad-Core, 8 GB de RAM, 192 GB de almacenamiento</h3>
+            <p><strong>$265.99</strong></p>
+            <p>Entrega y asistencia en Bolivia </p>
+            <p><strong>+4 colores</strong></p>
+            <button class="add-to-cart" data-id="13" data-name="HP Portátil " data-price=" 265.99">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="IMG/laptop4.jpg" alt="ASUS Portátil">
+            <h3>ASUS Portátil Vivobook Go FHD de 15,6", Intel Quad Core, 4 GB de RAM, SSD de 64 GB, Windows 11 en modo S</h3>
+            <p><strong>$149.99</strong></p>
+            <p>Se envia a toda Bolivia </p>
+            <p><strong>1 color</strong></p>
+            <button class="add-to-cart" data-id="14" data-name="ASUS Portátil" data-price="149.99">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="IMG/laptop5.jpg" alt="ASUS E410">
+            <h3>ASUS E410 Intel Celeron N4020 4GB 64GB 14-Inch HD LED Win 10 Laptop (Star Black)</h3>
+            <p><strong>$149.99</strong></p>
+            <p>Entrega y asistencia </p>
+            <p><strong>2 colores</strong></p>
+            <button class="add-to-cart" data-id="10" data-name="ASUS E410" data-price="149.99">Añadir al carrito</button>
+        </div>
+    </div>
+</section> 
+<!-- Lista de productos -->
+<section class="productos">
+    <h2 class="subtitulo">Relojes Inteligentes</h2>
+    <div class="producto-lista">
+        <div class="producto">
+            <img src="/IMG/reloj1.jpg" alt="Apple Watch Series 8">
+            <h3>Apple Watch Series 8 GPS, 41mm - Caja de aluminio</h3>
+            <p><strong>$399.99</strong></p>
+            <p>Monitorización de salud, ECG, y resistencia al agua</p>
+            <p><strong>41mm</strong></p>
+            <button class="add-to-cart" data-id="1" data-name="Apple Watch Series 8" data-price="399.99">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="IMG/reloj2.jpg" alt="Samsung Galaxy Watch 5">
+            <h3>Samsung Galaxy Watch 5 - 44mm, Conectividad Bluetooth</h3>
+            <p><strong>$289.99</strong></p>
+            <p>Control de la salud, actividad física</p>
+            <p><strong>44mm</strong></p>
+            <button class="add-to-cart" data-id="2" data-name="Samsung Galaxy Watch 5" data-price="289.99">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="/IMG/reloj3.jpg" alt="Garmin Venu 2">
+            <h3>Garmin Venu 2, Reloj Deportivo con GPS</h3>
+            <p><strong>$349.99</strong></p>
+            <p>GPS integrado, monitorización de sueño y estrés, pantalla AMOLED</p>
+            <p><strong>45mm</strong></p>
+            <button class="add-to-cart" data-id="3" data-name="Garmin Venu 2" data-price="349.99">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="IMG/reloj4.jpg" alt="Fitbit Sense">
+            <h3>Fitbit Sense - Reloj Inteligente con Monitoreo de Salud Avanzado</h3>
+            <p><strong>$249.99</strong></p>
+            <p>Electrocardiograma, SpO2, y monitoreo avanzado del sueño</p>
+            <p><strong>40mm</strong></p>
+            <button class="add-to-cart" data-id="4" data-name="Fitbit Sense" data-price="249.99">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="IMG/reloj5.jpg" alt="Amazfit GTR 3 Pro">
+            <h3>Amazfit GTR 3 Pro - Reloj Inteligente con Pantalla AMOLED</h3>
+            <p><strong>$199.99</strong></p>
+            <p>Monitoreo de salud 24/7, más de 150 modos deportivos, duración de batería extendida</p>
+            <p><strong>46mm</strong></p>
+            <button class="add-to-cart" data-id="5" data-name="Amazfit GTR 3 Pro" data-price="199.99">Añadir al carrito</button>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <p>&copy; 2024 The appliance shop | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

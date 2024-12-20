@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para la barra de navegación */
+
+.conten {
+    background-color: #333;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0;
+    z-index: 1000;
+}
+.logo{
+    transition: transform 2s ease-in-out; /* Animación suave */
+    padding-left: -10px;
+}
+.logo img {
+    width: 80px;
+}
+.logo:hover{
+    transform: rotate(360deg); /* Gira la imagen 300 grados */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #0baae9;
+}
+
+.title{
+    color: white;
+}
+.title:hover{
+    color: rgb(15, 166, 236);
+}
+/* Estilos para el banner */
+.banner {
+    top: 0;
+    left: 0;
+    margin-top: -18cap;
+    margin-bottom: 5cap;
+    text-align: center;/* Asegura que el video ocupe toda la altura de la pantalla */
+    object-fit: cover;  /* Hace que el video cubra toda la pantalla sin deformarse */
+}
+.banner h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #811414;
+}
+.banner p {
+    font-size: 20px;
+    color: #000000;
+}
+.vide{
+    margin-top: 30px;
+    opacity: 0.5;
+    top: 0%;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 18cap;
+    z-index: -1; 
+}
+.subtitulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    text-align: center;
+    color:rgb(95, 15, 15) ;
+    font-size: 30px;
+}
+.add-to-cart{
+    padding: 12px 24px; /* Espaciado interior del botón */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita en el texto */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Eliminar subrayado si es un enlace */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambio del cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+}
+.add-to-cart:hover{
+background-color: #0056b3; 
+transform: scale(1.05); 
+}
+/* Estilos para los productos */
+.productos {
+    padding: 20px;
+}
+
+.producto-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    overflow: hidden;
+
+    background-color: #f9f9f9;
+    padding: 50px;
+    /*margin: 20px;*/
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 80%;
+    height: 40%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.producto img:hover{
+    transform: scale(1.1); 
+}
+.producto h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.producto p {
+    color: #333;
+}
+
+
+
+/* Estilos para el carrito */
+.carrito {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.item-carrito {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-carrito img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.item-carrito {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    
+}
+.item-carrito img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+.remove-from-cart {
+    margin-left: auto;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: grid;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+.princ{
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.fon{
+    margin-top: 30px;
+    opacity: 0.5;
+    top: 0%;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;  
+}
+.fon img{
+    width: 100%;
+    height: 28cap;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}

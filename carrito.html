@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - The appliance shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="conten">
+            <div class="logo">
+                <img  src="/IMG/webpage-logo.png" alt="ElectroShop Logo">
+            </div>
+            <h1 class="title">The appliance shop</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito (<span id="cart-count">0</span>)</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="fon">
+        <!-- <video autoplay muted loop class="vide">
+                <source src="/IMG/vecteezy_digital-transformation-technology-strategy-iot-internet-of_22925553.mp4" type="video/mp4">
+            </video>  
+            -->
+                <img src="/IMG/Sin título.png" alt="fondo">
+        </section>
+    <!-- Banner -->
+    <section class="banner">
+        <h1 class="titulo"> Bienvenido a The appliance shop</h1>
+        <p>Los mejores productos electrónicos al mejor precio</p>
+    </section>
+
+    <!-- Carrito de compras -->
+    <section class="carrito">
+        <h2 class="subtitulo">Carrito de Compras</h2>
+        <div id="cart-items">
+        </div>
+        <div class="total">
+            <h3>Total: $<span id="total-price">0.00</span></h3>
+            <button class="btn">Proceder a la compra</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ElectroShop | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
